@@ -1,0 +1,339 @@
+.my-nav{
+    background-color: #0065c3 !important;
+    position: fixed;
+    width: 100%;
+    
+}
+
+.my-li ul li a{
+
+    font-family: Sofia Pro white    , Helvetica Neue, Helvetica, Arial, sans-serif !important;
+    font-size: .875rem !important;
+     color: white;
+    font-weight: bold !important;
+
+}
+
+.my-btn{
+
+    display: inline-block;
+    font-size: 1em;
+    height: 2.3em;
+    padding: 0.4em 1.85em;
+    border: 2px solid #fff;
+    border-radius: 1.8em;
+    background: transparent;
+    color: #fff;
+    font-family: Sofia Pro Black, Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-transition: background-color .1s ease-out, color .1s ease-out;
+    transition: background-color .1s ease-out, color .1s ease-out;
+} 
+
+.my-btn:hover{
+    background-color: white !important;
+  color: #0065c3 !important;
+  border: 2px solid white;
+}
+.bg{
+    background-color: black;
+    padding-top: 100px;
+}
+.flx{
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.fl-1 img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-2{
+background-image: url(./images/Desktop_Background.png);
+}
+.fl-2{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+.fl-2 img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.fl-2 iframe{
+    width: 200px;
+    height: 150px;
+   margin: 0 auto;
+   align-items: center;
+}
+.yt{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+flex-wrap: wrap;
+}
+.yt iframe{
+    margin:5px ;
+}
+.flx-1{
+    background-image: url(images/Desktop_Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+   
+  } 
+.fl-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fl-3 img{
+    width: 60%;
+ 
+    padding-top: 10px;
+    margin:  auto ;
+}
+
+.fl-4 img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.fl-4 h4{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.fl-4{
+    text-align: center;
+    
+}
+
+.flx-2{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width:950px) {
+    .yt iframe{
+        margin-right:0px ;
+    }
+}
+.bg-3 {
+    background-image: url(./images/PEP_BWP_D.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.new-img {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.new-img img {
+    width: 100%;
+}
+
+.new-img p {
+    background-color: #1437bf;
+    padding: 10px;
+    text-align: center;
+    color: white ;
+    font-size: smaller ;
+    font-weight: bold ;
+}
+
+.flxs-5 {
+    background-color: #0065c3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.flxs-5 img {
+
+    width: 100%;
+}
+
+.flxs-6 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.flxs-6 img {
+    width: 70%;
+    padding-top: 20px !important;
+}
+.vid{
+    padding-bottom: -7px;
+    margin-bottom: -7px;
+}
+.vid video{
+    width: 100%;
+}
+
+
+.bg-4{
+    background-image: url(images/twil-bg.jpg);
+
+}
+.flx-3{
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+ 
+}
+
+.fl-5 img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fl-6 img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.bg-5{
+    background-image: url(images/04_Generation_BG_D_2.png);
+    
+
+}
+.flx-4{
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+ 
+}
+
+.fl-7 h1{
+   color: white;
+   font-weight: bold;
+}
+.fl-7 p{
+    color: white;
+ }
+.fl-8 img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:30px ;
+
+}
+
+.fl-7 form button{
+    align-items: left;
+}
+
+.insta h1 {
+    text-align: center;
+    font-weight: bold;
+    color: #0065c3;
+}
+
+.social-img{
+    display: flex;
+    flex-wrap: wrap;justify-content: center;
+    align-items: center;
+}
+.img-hover-zoom {
+    height: 250px; /* [1.1] Set it as per your need */
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+    width:250PX;
+  }
+/* [2] Transition property for smooth transformation of images */
+  .img-hover-zoom img {
+    transition: transform .5s ease;
+  }
+  
+  /* [3] Finally, transforming the image when container gets hovered */
+  .img-hover-zoom:hover img {
+    transform: scale(1.5);
+  }
+  /* Zoom-n-rotate Container */
+.img-hover-zoom--zoom-n-rotate img {
+transition: transform .5s ease-in-out;
+}
+
+/* The Transformation */
+.img-hover-zoom--zoom-n-rotate:hover img {
+transform: scale(2) rotate(25deg);
+}
+
+.footer{
+    display: flex ;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0065c3;
+   padding-top: 50px;
+   padding-bottom: 50px;
+
+}
+.my-ul li {
+    list-style: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width:950px) {
+    .yt iframe{
+        margin-right:0px ;
+    }
+    .footer{
+        display: block ;}
+}
+.my-ul{
+    text-align: center;
+}
+.ft-l{
+    text-align: center;
+    padding-bottom: 12px;
+}
+.nav-item{
+    text-align: center;
+}
+.nav-btn{
+    margin: 0 auto;
+}
+.fl-7{
+    text-align: center;
+}
+.mid-btn{
+    margin: 0 auto;
+}
